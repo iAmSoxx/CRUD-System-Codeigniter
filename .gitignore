@@ -1,0 +1,43 @@
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Cache and logs
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
+!application/*/.htaccess
+
+# Environment file (if you ever add it)
+.env
+
+# Composer
+/vendor/
+composer.lock
+
+# Tests database
+tests/mocks/database/ci_test.sqlite
+
+# CodeIgniter user guide (not needed in repo)
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+# IDE / editor configs
+.nbproject/
+.idea/
+
+# Sublime Text files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+.sublime-workspace
+.sublime-project
+
+# PHPUnit test artifacts
+/tests/tests/
+/tests/results/
