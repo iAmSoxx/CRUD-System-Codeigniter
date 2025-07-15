@@ -1,6 +1,6 @@
 # CodeIgniter CRUD System
 
-This is a simple CRUD system built using CodeIgniter 3 and PHP 5.6.
+This is a simple CRUD system built using CodeIgniter 3 and PHP 5.6 please enjoy.
 
 ## Features
 - Create, Read, Update, Delete operations
